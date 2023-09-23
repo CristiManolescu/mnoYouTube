@@ -17,13 +17,12 @@ const Head = () => {
           src="https://cdn-icons-png.flaticon.com/512/8182/8182885.png"
           alt="menu"
         />
-        <a href="/">
-          <img
-            className="h-8 mx-2"
-            src="https://upload.wikimedia.org/wikipedia/commons/3/34/YouTube_logo_%282017%29.png"
-            alt="youtube-logo"
-          />
-        </a>
+
+        <img
+          className="h-8 mx-2"
+          src="https://upload.wikimedia.org/wikipedia/commons/3/34/YouTube_logo_%282017%29.png"
+          alt="youtube-logo"
+        />
       </div>
       <div className="col-span-10 px-10 text-center">
         <input
