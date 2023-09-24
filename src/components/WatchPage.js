@@ -4,7 +4,7 @@ import { closeMenu } from "../utils/appSlice";
 import { useSearchParams } from "react-router-dom";
 
 const WatchPage = () => {
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [searchParams] = useSearchParams();
   const videoId = searchParams.get("v");
 
   const dispatch = useDispatch();
