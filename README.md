@@ -23,7 +23,8 @@ Search bar features:
 
 App Features:
 
-- Sandwich Side Menu
+- Burger Side Menu
 - State Management using Redux
+- Designed with TailWindCSS
 - Nested Comments (Reddit like)
 - Live Chat using dummy data.
