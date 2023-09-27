@@ -15,13 +15,15 @@ npm start
 
 ## Features
 
-Search Bar
+Search bar features:
 
 - Live YouTube API
 - Debouncing
 - Caching
 
-Sandwich Side Menu
-State Management using Redux
-Nested Comments (Reddit like)
-Live Chat using dummy data.
+App Features:
+
+- Sandwich Side Menu
+- State Management using Redux
+- Nested Comments (Reddit like)
+- Live Chat using dummy data.
