@@ -52,11 +52,13 @@ const Head = () => {
           alt="menu"
         />
 
-        <img
-          className="h-8 mx-2"
-          src="https://upload.wikimedia.org/wikipedia/commons/3/34/YouTube_logo_%282017%29.png"
-          alt="youtube-logo"
-        />
+        <a href="/">
+          <img
+            className="h-8 mx-2"
+            src="https://upload.wikimedia.org/wikipedia/commons/3/34/YouTube_logo_%282017%29.png"
+            alt="youtube-logo"
+          />
+        </a>
       </div>
       <div className="col-span-10 px-10">
         <div>
