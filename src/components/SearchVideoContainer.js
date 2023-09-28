@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 const SearchVideoContainer = () => {
   const searchTerm = useSelector((store) => store.term.searchTerm);
   const [results, setResults] = useState([]);
+  console.log(searchTerm);
 
   useEffect(() => {
     fetchData();

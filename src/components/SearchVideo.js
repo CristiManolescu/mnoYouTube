@@ -1,7 +1,6 @@
 import React from "react";
 
 const SearchVideo = ({ data }) => {
-  console.log(data);
   const {
     id: { kind },
     snippet: {

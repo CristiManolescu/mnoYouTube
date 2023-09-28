@@ -89,6 +89,7 @@ const Head = () => {
                   className="py-2 px-3 shadow-sm hover:bg-gray-100"
                   onClick={() => {
                     setSearchQuery(suggestion);
+                    dispatch(addTerm(suggestion));
                     setShowSuggestions(false);
                   }}
                 >
